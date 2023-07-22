@@ -119,16 +119,29 @@ const Project = () => {
 
     if (loading) {
         return (
-            <div className="grid place-items-center h-screen ">
-                <div className='flex flex-col justify-center items-center'>
-                    <RotatingLines
-                        strokeColor="grey"
-                        strokeWidth="2"
-                        animationDuration="0.75"
-                        width="40"
-                        visible={true}
-                    />
-                    <div className='text-lg text-gray-500'>Loading...</div>
+            <div className='md:h-screen overflow-y-scroll xs:h-[700px] bg-white h-screen relative'>
+                <div className='w-full h-[4px] bg-gray-500'>
+                    <div className='animate-[loader_4s_ease-in-out] h-[4px] bg-blue-500'></div>
+                </div>
+                {toasterShow ? <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                    <div className='flex gap-2 bg-black opacity-100 text-white px-2 py-1 rounded-md'>
+                        <div>{toasterText}</div>
+                    </div>
+                </div> : null}
+
+                <div className="options flex items-center text-center bg-cstGray text-white text-md pt-1 px-1 font-normal pb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        onClick={() => navigate(-1)} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                        className="w-4 h-4   storke-white  cursor-pointer stroke-white">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
+                    <div className='flex-grow'>Project Record</div>
+                </div>
+
+
+                <div className='records w-full flex bg-white items-center'>
+                    <div onClick={() => setCurrent_tab('earning')} className={`cursor-pointer h-[40px] flex items-center justify-center w-1/2 text-center  font-semibold ${current_tab === 'earning' ? 'border-cstGray text-cstGray border-r-2 border-b-4' : 'text-gray-400 border-b-2'}`}>Income</div>
+                    <div onClick={() => setCurrent_tab('completed')} className={`cursor-pointer h-[40px] flex items-center justify-center w-1/2 text-center  ${current_tab === 'completed' ? 'border-cstGray text-cstGray border-l-2 border-b-4' : 'text-gray-400 border-b-2'}`}>Finish</div>
                 </div>
             </div>
         )

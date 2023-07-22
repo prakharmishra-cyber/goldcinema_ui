@@ -117,8 +117,8 @@ const Invite = () => {
 
                 <div className="info  p-3 sm:text-xs md:text-md flex flex-col rounded-2xl bg-white text-black font-bold mt-1">
                     <div className='font-bold text-sm'>Invitation Link</div>
-                    <div className='py-2 px-1 text-xs rounded-md border overflow-hidden border-gray-400 mt-2'>{`https://www.electricboat4s.website/index/user/register/invite_code/${userDetails.user_invite}`}</div>
-                    <CopyToClipboard text={`https://www.electricboat4s.website/index/user/register/invite_code/${userDetails.user_invite}`} onCopy={() => toaster('copy success')}>
+                    <div className='py-2 px-1 text-xs rounded-md border overflow-hidden border-gray-400 mt-2'>{`https://goldcinema-ui.vercel.app/index/user/register/invite_code/${userDetails.user_invite}`}</div>
+                    <CopyToClipboard text={`https://goldcinema-ui.vercel.app/index/user/register/invite_code/${userDetails.user_invite}`} onCopy={() => toaster('copy success')}>
                         <span className='w-[80px] text-sm text-center bg-red-800 text-white p-2'>copy</span>
                     </CopyToClipboard>
                 </div>
@@ -137,7 +137,7 @@ const Invite = () => {
                 <QRCode
                     size={140}
                     style={{ height: "auto", maxWidth: "100%", width: "100%" }}
-                    value={`https://www.electricboat4s.website/index/user/register/invite_code/${userDetails.user_invite}`}
+                    value={`https://goldcinema-ui.vercel.app/index/user/register/invite_code/${userDetails.user_invite}`}
                     viewBox={`0 0 120 120`}
                 />
                 <div className='text-[#e1e2e4] font-extrabold text-center mt-1'>QR code</div>

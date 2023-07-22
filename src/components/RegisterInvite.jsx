@@ -51,6 +51,7 @@ const Register = () => {
 
     useEffect(() => {
         document.body.style.backgroundColor = "white";
+        setInvt(invite_code.replaceAll('.html',''));
     }, []);
 
     const handleRegister = async () => {

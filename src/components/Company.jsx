@@ -6,11 +6,11 @@ import tuborg_company from '../images/tuborg_company.jpg';
 import asset43 from '../images/assets4/asset 0.jpeg'
 import lenskart_logo from '../images/lenskart_logo.png';
 import jio from '../images/asml/jio.png'
-import company from '../images/asml/company.jpg'
 import company2 from '../images/asml/company2.jpg'
 import company3 from '../images/asml/company3.jpg'
 import company4 from '../images/asml/company4.jpg'
 import logo from '../images/dew/logo.webp';
+import company_image from '../images/vbharat/company _image.png';
 import register_logo from '../images/vbharat/register_logo.png';
 
 
@@ -29,7 +29,7 @@ const Company = () => {
             </div>
 
             <div className="hp_company mt-4">
-                <img src={register_logo} alt="hp" className='sm:w-3/6 md:w-2/6 mx-auto' width={280} />
+                <img src={company_image} alt="hp" className='sm:w-3/6 md:w-2/6 mx-auto' width={280} />
             </div>
 
             <div className='flex flex-col w-[88%] mx-auto justify-between items-center p-2'>
@@ -45,13 +45,25 @@ const Company = () => {
                 </div>
 
                 <div className="flex flex-col gap-2 px-2  py-2 mt-4 rounded-md w-full mx-auto">
-                    <div className='font-semibold'>Gold Cinema</div>
-                    <div className='text-xs'>
-                        About Time: In early 1980s, Time made its beginning as Time Magnetic, the first in India to manufacture pre-recorded video cassettes. Time Audio followed with publishing film music audio. In 1997, all of Time's activities were integrated under Time Media and Entertainment Pvt. Ltd. In the late 1990s, Time was involved in the licensing of film video content to numerous TV channels as it held a large library of titles with copyrights. Film production seemed like a natural progression.Time produced hits such as Vijay Path, Sabse Bada Khiladi, Krishna, Khiladiyon Ka Khiladi, Kurukshetra, Hu Tu Tu, Jodi No. 1, The Hero-Love Story of a Spy and many other titles. Television came next and serials like Dishayen, Khushiyaan and others were produced for Doordarshan. Time's gamut of businesses included film distribution and saw success with Gadar-Ek Prem Katha on the Bombay circuit.
-                        About Prachar: Prachar Communications Ltd. Is a venture committed to making publicity profitable for all its clients. Established in 1994, the company has seen phenomenal growth in a short span of time. It specializes in media planning, buying, and selling; developing marketing and advertising strategy; co-coordinating market research; designing and executing creative campaigns; and producing television commercials.
+                    <div className='font-semibold'>Britannia</div>
+                    <div className="text-xs">
+                        <p>Global Total Foods company. We believe that food should be both tasty and healthy, and our product portfolio reflects this vision. From our classic biscuits and cakes to our new range of healthy snacks, we are committed to offering products that are good for you and good for the planet.&nbsp;</p>
 
+                        <p>&nbsp;</p>
 
+                        <p>At Britannia, we are constantly working towards making exciting new products for all consumer segments and consumption&nbsp;occasions.</p>
 
+                        <p>&nbsp;</p>
+
+                        <p>We are committed to being a responsible and sustainable company. We believe that it is our responsibility to take care of the planet and the communities in which we operate. We champion several initiatives to reduce our environmental footprint, including using renewable energy sources, reducing packaging waste, and promoting sustainable farming practices. We also believe in giving back to the communities in which we operate.&nbsp;</p>
+
+                        <p>&nbsp;</p>
+
+                        <p>Through our various CSR initiatives, we have been able to make a positive impact on the lives of thousands of people across India. Our initiatives include programs for education, health, and nutrition, and we work closely with local communities to understand their needs and provide support where it is most needed. At Britannia, we believe that our success is not just measured by our financial performance but also by our impact on society and the environment.&nbsp;</p>
+
+                        <p>&nbsp;</p>
+
+                        <p>We are committed to being a responsible and sustainable company, and we believe that our actions today will shape the future. Britannia Industries is a company with a rich legacy and a commitment to innovation, sustainability, and responsibility. We are proud to serve a billion people across India and to provide products that are both delicious and nutritious. With our focus on R&amp;D, innovation, and sustainability, we will continue to uphold the standards of leadership in&nbsp;our&nbsp;industry.</p>
 
                     </div>
                     {/* <img src={lenskart_logo} alt="spacex" /> */}

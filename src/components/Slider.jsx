@@ -9,9 +9,7 @@ import s3 from '../images/dew/s3.png';
 import slide1 from '../images/vbharat/slide1.jpg';
 import slide2 from '../images/vbharat/slide2.jpg';
 import slide3 from '../images/vbharat/slide3.jpg';
-import slide4 from '../images/vbharat/slide4.jpg';
-import slide5 from '../images/vbharat/slide5.jpg';
-import slide6 from '../images/vbharat/slide6.jpg';
+
 
 
 
@@ -32,9 +30,9 @@ const Slider = () => {
         </div>
 
 
-        <div>
+        {/* <div>
           <img src={slide4} className="h-[200px]" alt="img_2" />
-        </div>
+        </div> */}
 
         {/* <div>
           <img src={slide5} className="h-[200px]" alt="img_2" />

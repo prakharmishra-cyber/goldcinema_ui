@@ -11,7 +11,7 @@ import asset7 from '../images/asml/asset 7.png';
 import asset8 from '../images/asml/asset 8.png';
 import ReactModal from 'react-modal';
 import DateDifference from '../utility/DateDifference.js';
-import register_logo from '../images/vbharat/register_logo.jpg';
+import register_logo from '../images/vbharat/register_logo.png';
 import team from '../images/vbharat/team.png';
 import funding from '../images/vbharat/funding.png';
 import record from '../images/vbharat/record.png';
@@ -260,7 +260,7 @@ const Mine = () => {
 
         <div className="flex flex-col bg-white">
           <div className='flex  justify-start items-center px-3 pt-6 pb-10 bg-my'>
-            <img src={mine} alt="wind_login" className="bg-white py-2 h-20 w-20  rounded-full" />
+            <img src={register_logo} alt="wind_login" className="bg-white py-2 px-1 w-20  rounded-full" />
             <div className='text-2xl ml-4 text-white bg-red-800 px-1 py-1 rounded-md'>ID:{''}
               {/* <span className='border border-red-700 px-1 text-red-700 rounded-xl text-xs'>LV0</span> */}
             </div>
@@ -512,7 +512,7 @@ const Mine = () => {
 
       <div className="flex flex-col bg-white">
         <div className='flex  justify-start items-center px-3 pt-6 pb-10 bg-my'>
-          <img src={mine} alt="wind_login" className="bg-white py-2 h-20 w-20  rounded-full" />
+          <img src={register_logo} alt="wind_login" className="bg-white py-2 px-1 w-20  rounded-full" />
           <div className='text-2xl ml-4 text-white bg-red-800 px-1 py-1 rounded-md'>ID:{mobileno}
             {/* <span className='border border-red-700 px-1 text-red-700 rounded-xl text-xs'>LV0</span> */}
           </div>

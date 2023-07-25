@@ -138,7 +138,7 @@ const Register = () => {
             <div className='flex-grow font-[400]'>Register</div>
         </div>
         <div className='text-center'>
-            <img src={register_logo} alt="hp_logo" className='m-auto md:w-2/6 sm:w-1/6 mt-5 mb-4 w-[157px] h-[68px]' />
+            <img src={register_logo} alt="hp_logo" className='m-auto md:w-2/6 sm:w-1/6 mt-5 mb-4 w-[157px]' />
         </div>
         <div style={{ boxShadow: "0 0.053333rem 0.533333rem 0.053333rem #dfdfdf" }} className="box mb-20   gap-2 m-auto  rounded-xl lg:w-2/5 w-[88%]  p-4 w-50% flex flex-col">
             <div className='outline-none flex items-center justify-between mb-2  rounded-full border border-gray-200'>

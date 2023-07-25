@@ -12,7 +12,7 @@ module.exports = {
       },
       colors: {
         'regal-blue': '#243c5a',
-        'red-800': '#ae9169',
+        'red-800': '#552d2d',
         'recharge-bg':'#f2f2f2',
         'withdraw': '#f2f2f2',
         'selected':'#2a00a7',
